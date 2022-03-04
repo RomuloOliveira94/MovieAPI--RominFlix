@@ -11,40 +11,20 @@
 </head>
 <body>
     <h1>ROMINFLIX</h1>
-    <form method="get" action="http://google.com/search">
+    <form>
         <label for="name">What is your favorite movie?</label>
-        <input id="name" type="text" name="q">
-        <button type="submit" target="_blank">Search</button>
+        <input id="name" type="text" name="q" placeholder="search movie">
+        <button type="submit" target="_blank" class="form_submit">Search</button>
     </form>
     <div>
         <h2>Best Movies</h2>
     </div>
-    
-    <section class="list-banners">
-        <figure class="wrapper-banner">
-            <img src="img/banner01.png" alt="spiderman" class="banner">
-            <figcaption class="caption">Spider-Man: No way home</figcaption>
-        </figure>
-        <figure class="wrapper-banner">
-            <img src="img/banner02.png" alt="fightclub" class="banner">
-            <figcaption class="caption">Fight Club</figcaption>
-        </figure>
-        <figure class="wrapper-banner">
-            <img src="img/banner03.png" alt="matrix" class="banner">
-            <figcaption class="caption">Matrix</figcaption>
-        </figure>
-        <figure class="wrapper-banner">
-            <img src="img/banner04.png" alt="godfather" class="banner">
-            <figcaption class="caption">The Godfather</figcaption>
-        </figure>
-        <figure class="wrapper-banner">
-            <img src="img/banner05.png" alt="Dune" class="banner">
-            <figcaption class="caption">Dune</figcaption>
-        </figure>
+    <section class="list-banners" id="movies">
     </section>
-    
     <footer>
         <p>Desenvolvido por <a href="https://github.com/RomuloOliveira94" target="_blank">Romulo Oliveira</p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
