@@ -11,7 +11,7 @@ function handler(e){
     let movie = document.querySelector('#name').value
     if(movie){
         //o que for digita em movie vai ser enviado para api
-        const _url = `http://www.omdbapi.com/?s=${movie}&apikey=78f28eac` 
+        const _url = `https://www.omdbapi.com/?s=${movie}&apikey=78f28eac` 
         const _options ={
             method: 'GET',
             mode: 'cors',
