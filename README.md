@@ -1,4 +1,4 @@
-# ROMINFLIX - Busque seu filme
+# ROMINFLIX - Search your movie!
   
   ## Search site for movies, using OMDb API, with mobile responsive design.
   
