@@ -1,7 +1,8 @@
 # ROMINFLIX - Busque seu filme
   
-  Site de busca para filmes, utilizando API OMDb, com design responsivo para mobile.
-  Using omdbAPI, HTML5, CSS3, JS
+  ## Search site for movies, using OMDb API, with mobile responsive design.
+  
+  Build with: <br> HTML5, <br> CSS3, <br> JS<br>
   https://romulooliveira94.github.io/MovieAPI--RominFlix/
   
    
